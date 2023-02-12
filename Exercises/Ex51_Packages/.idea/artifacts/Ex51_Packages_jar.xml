@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Ex51_Packages:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Ex51_Packages_jar</output-path>
+    <root id="archive" name="Ex51_Packages.jar">
+      <element id="module-output" name="Ex51_Packages" />
+    </root>
+  </artifact>
+</component>

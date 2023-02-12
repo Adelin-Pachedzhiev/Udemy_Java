@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane fx:id="dialogPane" prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ex56_fxcontacts.DialogController">
+
+    <content>
+        <GridPane hgap="20.0" vgap="10.0">
+            <Label text="First name" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <TextField fx:id="firstNameField" GridPane.columnIndex="1" GridPane.rowIndex="0" GridPane.columnSpan="2"/>
+
+            <Label text="Last name" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <TextField fx:id="lastNameField" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.columnSpan="2"/>
+
+            <Label text="Phone number" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <TextField fx:id="phoneNumberField" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.columnSpan="2"/>
+
+            <Label text="Note" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+            <TextField fx:id="noteField" GridPane.columnIndex="1" GridPane.rowIndex="3" GridPane.columnSpan="2"/>
+        </GridPane>
+    </content>
+</DialogPane>
