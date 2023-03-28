@@ -102,7 +102,7 @@ public class Controller {
         Optional<ButtonType> result = dialog.showAndWait();
         if (result.isPresent() && result.get() == ButtonType.OK) {
             DialogController dialogController = fxmlLoader.getController();
-            Contact newContact = dialogController.addItemResult();
+            Contact newContact = dialogController.addIt`emResult();
             if(newContact != null){
                 tableView.getSelectionModel().select(newContact);
             }
